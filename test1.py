@@ -19,6 +19,7 @@ def print_rangoli(size):
             a=a+"-"+chr(k)
         print(a.center((size+(size-1)*3),"-"))
         a=""
+#main control
 if __name__ == '__main__':
     n = int(input())
     print_rangoli(n)
